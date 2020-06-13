@@ -1,0 +1,119 @@
+body,
+html {
+    height: 90%;
+    width: 100%;
+    background-color: #1e1e2f;
+}
+
+.top-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    padding: 1px;
+    background-color: #e14eca;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.navbar .navbar-brand:hover {
+    color: #e14eca
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+    color: #fff
+}
+
+.side {
+    height: 100%;
+}
+
+.side-nav {
+    background-color: #e14eca;
+    border-radius: 10px;
+}
+
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.side-nav hr {
+    border: 1px solid #fff;
+}
+
+.side-nav .line {
+    padding: 0.1px;
+    background-color: #fff;
+}
+
+.side-nav .nav-item a {
+    color: #fff;
+}
+
+.side-nav .nav-item i {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.contacts div {
+    color: #fff;
+}
+
+.contacts div i {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.contacts div a {
+    color: #fff;
+}
+
+.profile-menu {
+    left: -200%;
+}
+
+.card {
+    background-color: #27293d;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .intro h3 {
+    text-transform: uppercase;
+}
+
+.form-container .form-group input,
+.form-container .form-group select {
+    border-radius: 20px;
+    background-color: #1e1e2f;
+    color: #fff;
+}
+
+.form-container .form-group button {
+    border-radius: 20px;
+    background-color: #e14eca;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.form-container .form-group button:hover {
+    background-color: #1e1e2f;
+}
+
+.create a {
+    border-radius: 20px;
+    background-color: #e14eca;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.create a:hover {
+    background-color: #1e1e2f;
+    color: #fff;
+}

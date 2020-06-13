@@ -1,0 +1,22 @@
+body,
+html {
+    height: 90%;
+    width: 100%;
+    background-color: #1e1e2f;
+}
+
+.login-error {
+    flex-direction: column;
+}
+
+.tryBtn {
+    border-radius: 20px;
+    background-color: #e14eca;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.tryBtn:hover {
+    background-color: #27293d;
+    color: #fff;
+}

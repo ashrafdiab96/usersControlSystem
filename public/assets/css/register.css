@@ -1,0 +1,43 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #1e1e2f;
+}
+
+.myForm {
+    flex-direction: column;
+}
+
+.form-container {
+    background-color: #27293d;
+    border-radius: 20px;
+}
+
+.myForm .form-container .row .col h3::after {
+    background: #fff;
+    width: 10%;
+    height: 3px;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+
+.form-container .form-group input,
+.form-container .form-group select {
+    border-radius: 20px;
+    background-color: #1e1e2f;
+    color: #fff;
+}
+
+.form-container .form-group button {
+    border-radius: 20px;
+    background-color: #e14eca;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.form-container .form-group button:hover {
+    background-color: #1e1e2f;
+}
